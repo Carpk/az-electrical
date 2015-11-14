@@ -719,3 +719,8 @@ footer #footerarticle #fainfo  h2:hover{
 #designedby{
 	float: right;
 }
+
+#map {
+	width: 500px;
+	height: 400px;
+}

@@ -121,7 +121,7 @@ header {
 	margin-bottom: 20px;
 }
 #logo {
-	width: 200px;
+	width: 240px;
 	float: left;
 }
 #logo a img 	{
@@ -133,7 +133,7 @@ header {
 	opacity: 0.5;
 }
 nav {
-	width: 740px;
+	width: 700px;
 	float: right;
 	margin-top: -4px;
 }

@@ -87,7 +87,7 @@ h6 {
 	font-size: 10px;
 }
 a{
-	color: #EECB00;
+	color: #CAAD00;
 }
 img {
 	margin-bottom: 10px;
@@ -166,8 +166,8 @@ nav ul li a {
   transition: border-bottom 0.1s ease-out;
 }
 nav ul li a:hover, nav ul li a.current {
-	border-bottom: 2px solid #EECB00;
-	color: #EECB00;
+	border-bottom: 2px solid #CAAD00;
+	color: #CAAD00;
 }
 
 /**** Dropdown ****/
@@ -234,7 +234,7 @@ nav ul li:hover ul li a:hover, nav ul li:hover ul li a.current{
   transition: background-color 0.3s ease-out;
 }
 #featured #featuredinfo:hover{
-		background-color: #EECB00;
+		background-color: #CAAD00;
 }
 #featuredinfo h1{
 	text-transform: uppercase;
@@ -282,7 +282,7 @@ nav ul li:hover ul li a:hover, nav ul li:hover ul li a.current{
 
 .rm{
 	display: inline-block;
-	background: #EECB00;
+	background: #CAAD00;
 	padding: 2px 10px;
 	color: #fff;
 	margin-top: 10px;
@@ -430,7 +430,7 @@ table{
   transition: background-color 0.2s ease-out;
 }
 .post-info:hover{
-	background-color: #EECB00;
+	background-color: #CAAD00;
 }
 .author, .date, .comments {
 	color: #fff;
@@ -451,7 +451,7 @@ table{
 .readmore {
 	display: inline-block;
 	padding: 2px 10px;
-	background-color: #EECB00;
+	background-color: #CAAD00;
 	color: #fff;
 	border-radius: 2px;
 	margin-top: -10px;
@@ -619,7 +619,7 @@ table{
 	color: #fff;
 }
 .blue {
-	background-color: #EECB00;
+	background-color: #CAAD00;
 	color: #fff;
 }
 .yellow {
@@ -631,14 +631,14 @@ table{
 	padding: 20px 20px 20px 80px;
 	margin: 10px;
 	border-radius: 2px;
-	background: #EECB00 url('images/warning.png') no-repeat 15px ;
+	background: #CAAD00 url('images/warning.png') no-repeat 15px ;
 }
 .note {
 	color: #fff;
 	padding: 20px 20px 20px 80px;
 	margin: 10px;
 	border-radius: 2px;
-	background: #EECB00 url('images/note.png') no-repeat 15px ;
+	background: #CAAD00 url('images/note.png') no-repeat 15px ;
 }
 
 /***************************************************
@@ -706,7 +706,7 @@ footer h2{
 	line-height: 1px;
 }
 footer #footerarticle #fainfo  h2:hover{
-	color: #EECB00;
+	color: #CAAD00;
 }
 
 #copyrights{

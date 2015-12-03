@@ -23,6 +23,14 @@
   </script>
 </head>
 <body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
   <div id="wrapper">
 
     <!--========================== L O G O  &   N A V    B A R ============================-->
@@ -88,6 +96,11 @@
                 <tr>
                   <td style="color: black; font-family: arial, sans-serif; font-size: 12px;">
                     <!-- <a href="http://www.angieslist.com/AngiesList/Review/8808942" style="color: #006699;text-decoration: none;">angieslist.com/review/8808942</a> -->
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="fb-like" data-href="https://www.facebook.com/azelectricalcompany" data-width="110px" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
                   </td>
                 </tr>
               </table>

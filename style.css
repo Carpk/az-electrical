@@ -536,9 +536,9 @@ table{
 	float: left;
 }
 #contact-info{
-	width: 399px;
+	/*width: 399px;*/
 	padding-left: 40px;
-	float: right;
+	float: left;
 	border-left: 1px solid #eee;
 }
 .contact p {

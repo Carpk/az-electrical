@@ -23,6 +23,15 @@
 	</script>
 </head>
 <body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "http://connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+	<div id="wrapper">
 	<div id="wrapper">
 
 		<!--========================== L O G O  &   N A V    B A R ============================-->
@@ -106,6 +115,7 @@
 			</div>
       <div id="widget4">
         <img src="images/Certified Electrician.jpg" alt="Certified Electrician" />
+        <div class="fb-like" data-href="https://www.facebook.com/azelectricalcompany" data-width="110px" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
       </div>
 			<div id="copyrights">
 				<p>Copyright © 2015 AZ Electrical co. All rights reserved.</p>
